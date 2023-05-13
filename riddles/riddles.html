@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Загадки-загадочки</title>
+		
+		<meta charset="utf-8">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<style>
+            body {
+                text-align: center;
+            }
+            img {
+                width: 35%;
+            }
+			button {
+                margin-top: 30px;
+				width: 200px;
+				height: 50px;
+				font: bold 24px Arial;
+				color: green;
+				text-transform: uppercase;
+                
+			}
+			form {
+				display: block;
+                margin: 10px;
+				font: bold 24px Arial;
+			}
+
+            label {
+                color: darkslategray;
+            }
+
+            input {
+                width: 600px;
+                height: 35px;
+                margin-top: 10px;
+                font: normal 24px Arial;
+            }
+		</style>
+		
+		<script src="riddles.js"></script>
+	
+	</head>
+	
+	<body>
+        <img src="https://www.meme-arsenal.com/memes/f03ffe4aad08951772f827d81547db2b.jpg" alt="meme">
+		<form>
+		<label>&#128312; Какая игрушка стреляет как пушка?</label>
+		<br>
+		<input type="text" id="hlopushka">
+		<br>
+		<br>
+		<label>&#128312; Красное коромысло над рекою повисло:</label>
+		<br>
+		<input type="text" id="rainbow">
+		<br>
+		<br>
+		<label>&#128312; Сидит девица в темнице, а коса - на улице:</label>
+		<br>
+		<input type="text" id="carrot">
+		</form>
+		<button type="button" onclick="game();">Ответить</button>
+	</body>
+</html>
