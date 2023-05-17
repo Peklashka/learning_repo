@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+}
+
+img {
+    max-width: 80%;
+}
+
+form {
+    display: block;
+    margin: 10px;
+    font: bold 24px Arial;
+}
+
+label {
+    color: darkslategray;
+}
+
+input {
+    width: 700px;
+    height: 35px;
+    margin-top: 10px;
+    font: normal 24px Arial;
+}
+
+button, .btn {
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    font: bold 24px Arial;
+    color: rgb(83, 5, 51);
+    background-color: wheat;
+    text-transform: uppercase;  
+}
+
+button:hover, .btn:hover {
+    background-color: rgb(182, 235, 39);
+    width: 220px;
+    height: 55px;
+    cursor: pointer;
+}

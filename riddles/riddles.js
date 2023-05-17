@@ -1,13 +1,13 @@
 function game() {
 	let counter = 0;
 	
-	if(document.getElementById('hlopushka').value.toLowerCase() == "хлопушка") {
+	if(document.getElementById('money').value.toLowerCase() == "зарплата") {
 		counter++;
 	}
-	if (document.getElementById('rainbow').value.toLowerCase() == "радуга") {
+	if (document.getElementById('breakfast').value.toLowerCase() == "обед" || document.getElementById('breakfast').value.toLowerCase() == "ужин") {
 		counter++;
 	}
-	if (document.getElementById('carrot').value.toLowerCase() == "морковка" || document.getElementById('carrot').value.toLowerCase() == "морковь"){
+	if (document.getElementById('window').value.toLowerCase() == "окно"){
 		counter++;
 	}
 	
@@ -20,9 +20,11 @@ function game() {
         alert(`Хорошо справился!`);
     }
     else if (counter == 1) {
-        alert(`Кому-то стоить поразвиваться!`);
+        alert(`Ты пытался!`);
     }
     else {
-        alert(`Я просто промолчу :)`);
+        alert(`Штош.. не умом, так красотой!`);
     }
+
+    alert('Правильные ответы: зарплата, обед/ужин, окно');
 }

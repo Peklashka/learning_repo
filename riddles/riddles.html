@@ -6,40 +6,7 @@
 		<meta charset="utf-8">
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		
-		<style>
-            body {
-                text-align: center;
-            }
-            img {
-                width: 35%;
-            }
-			button {
-                margin-top: 30px;
-				width: 200px;
-				height: 50px;
-				font: bold 24px Arial;
-				color: green;
-				text-transform: uppercase;
-                
-			}
-			form {
-				display: block;
-                margin: 10px;
-				font: bold 24px Arial;
-			}
-
-            label {
-                color: darkslategray;
-            }
-
-            input {
-                width: 600px;
-                height: 35px;
-                margin-top: 10px;
-                font: normal 24px Arial;
-            }
-		</style>
+		<link rel="stylesheet" href="style.css">
 		
 		<script src="riddles.js"></script>
 	
@@ -48,20 +15,26 @@
 	<body>
         <img src="https://www.meme-arsenal.com/memes/f03ffe4aad08951772f827d81547db2b.jpg" alt="meme">
 		<form>
-		<label>&#128312; Какая игрушка стреляет как пушка?</label>
+		<label>&#128312; Не лёд, а тает. Не лодка, а уплывает.</label>
 		<br>
-		<input type="text" id="hlopushka">
-		<br>
-		<br>
-		<label>&#128312; Красное коромысло над рекою повисло:</label>
-		<br>
-		<input type="text" id="rainbow">
+		<input type="text" id="money">
 		<br>
 		<br>
-		<label>&#128312; Сидит девица в темнице, а коса - на улице:</label>
+		<label>&#128312; Что нельзя съесть на завтрак?</label>
 		<br>
-		<input type="text" id="carrot">
+		<input type="text" id="breakfast">
+		<br>
+		<br>
+		<label>&#128312; Какое изобретение помогает смотреть сквозь стены?</label>
+		<br>
+		<input type="text" id="window">
+		<br>
+		<input type="button" class="btn" value="тык" onclick="game();">
 		</form>
-		<button type="button" onclick="game();">Ответить</button>
+		<!-- <button type="button" onclick="game();">тык</button> -->
+		
+		<!-- <script src="riddles.js"></script>  -->
+		<!-- читала, что скрипты лучше класть в конец body,
+		чтобы подгрузка скриптов не проходила быстрее прогрузки файла -->
 	</body>
 </html>
